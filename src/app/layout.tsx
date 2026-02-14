@@ -6,7 +6,7 @@ const notoSerifTC = Noto_Serif_TC({
   variable: "--font-serif-tc",
   subsets: ["latin"],
   weight: ["400", "700", "900"],
-  display: "swap",
+  display: "block",
 });
 
 export const metadata: Metadata = {
