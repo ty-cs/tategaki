@@ -31,9 +31,7 @@ body {
   font-family: var(--font-serif-tc);
   height: 100vh;
   margin: 0;
-
 }
-
 
 .chapter {
   line-height: 2;

@@ -1,4 +1,3 @@
-
 const chapters = [
   `永和九年，歲在癸丑，暮春之初，會於會稽山陰之蘭亭，脩禊事也。群賢畢至，少長咸集。此地有崇山峻領（嶺），茂林脩竹；又有清流激湍，映帶左右，引以為流觴曲水，列坐其次。雖無絲竹管弦之盛，一觴一詠，亦足以暢敘幽情。`,
   `是日也，天朗氣清，惠風和暢。仰觀宇宙之大，俯察品類之盛。所以遊目騁懷，足以極視聽之娛，信可樂也。`,
@@ -9,7 +8,6 @@ const chapters = [
 export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-start pt-24 pb-24 px-20 gap-24 overflow-x-auto overflow-y-hidden selection:bg-seal/10 selection:text-ink">
-
       {/* Scroll Spacer (Right side in Vertical-RL) */}
       <div className="w-1 shrink-0 h-full"></div>
 
@@ -19,7 +17,9 @@ export default function Home() {
           蘭亭集序
         </h1>
         <div className="flex flex-col gap-4 mt-auto pb-8">
-          <h2 className="text-2xl text-ink/80 font-serif tracking-[0.2em] font-medium">王羲之</h2>
+          <h2 className="text-2xl text-ink/80 font-serif tracking-[0.2em] font-medium">
+            王羲之
+          </h2>
         </div>
       </header>
 
@@ -29,10 +29,7 @@ export default function Home() {
       {/* Content Columns */}
       <article className="h-full flex flex-col flex-wrap gap-16 content-start text-3xl leading-loose font-serif text-ink/90">
         {chapters.map((chapter, i) => (
-          <p
-            key={i}
-            className="text-justify tracking-[0.15em] max-h-full"
-          >
+          <p key={i} className="text-justify tracking-[0.15em] max-h-full">
             {chapter}
           </p>
         ))}
