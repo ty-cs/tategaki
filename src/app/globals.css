@@ -5,7 +5,7 @@
   --foreground: #2b2520;
   --ink-primary: #181512;
 
-  --font-serif-tc: "Noto Serif TC", "Songti SC", serif;
+  /* --font-serif-tc is defined by next/font in layout.tsx */
 }
 
 @theme inline {
@@ -33,10 +33,6 @@ body {
   margin: 0;
 
 }
-
-
-
-
 
 
 .chapter {
